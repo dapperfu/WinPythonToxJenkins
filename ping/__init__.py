@@ -1,2 +1,5 @@
 def ping():
-    return "Pong"
+    return "pong"
+	
+def echo(msg=""):
+    return msg
