@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="2" time="0.109"><testcase classname="tests.test_01" file="tests\test_01.py" line="0" name="test_01" time="0.007000446319580078"></testcase><testcase classname="tests.test_01" file="tests\test_01.py" line="3" name="test_02" time="0.010000467300415039"><failure message="ImportError: No module named &apos;ping&apos;">def test_02():
-&gt;   	import ping
-E    ImportError: No module named &apos;ping&apos;
-
-tests\test_01.py:5: ImportError</failure></testcase></testsuite>
