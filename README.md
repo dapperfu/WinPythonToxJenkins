@@ -8,7 +8,7 @@ These instructions will show you how to use [``tox``](https://tox.readthedocs.io
 
 ### WinPython.
 
-While I personally prefer to develop on *NIX systems, in my corporate engineering day job Windows was a necessary. Most of the Python I wrote was targeting use on Windows 7 and 10.
+While I personally prefer to develop on *NIX systems, in my corporate engineering day job Windows was a necessity. Most of the Python I wrote was targeting use on Windows 7 and 10.
 
 There are multiple ways to [install multiple versions of Python](how to install multiple versions of python on windows) on Windows. I've tested them prefer to use [WinPython](https://winpython.github.io/).
 
@@ -62,18 +62,23 @@ https://github.com/winpython/winpython/releases/
 
 ## ``tox``
 
-Minimal version of ``tox.ini``.
+Minimal version of ``tox.ini`` for your project. This example uses [```pytest```](http://doc.pytest.org/en/latest/) to run the tests.
 
     # content of: tox.ini , put in same dir as setup.py
     [tox]
     envlist = py27,py34,py35,py36
+    
     [testenv]
     deps=pytest
     commands=py.test
 
+
 ## Execution
 
+1. Open the ``WinPython Command Prompt`` for your main version of Python.
+ 
+2. Navigate to your project root.
 
+3. Run ``tox``. ```tox``` will create a virtual environment for each version of Python and run the tests in each of them. For this project the results should look similar to this:
 
-
-*Opinions expressed are solely my own and do not express the views or opinions of my current or previous employers*
+   ![](images/2017-01-16 22_02-000039.png)
