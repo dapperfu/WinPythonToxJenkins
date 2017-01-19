@@ -45,28 +45,31 @@ https://github.com/winpython/winpython/releases/
 
    For example with WinPython 2.7:
 
-   Before & After:
-   ![](images/2017-01-16 15_52-000032.png) ![](images/2017-01-16 15_53-000033.png)
+   **Before**:
    
-   Repeat this for all of the other versions of WinPython you have installed. For the main version of Python, copy and paste the executables and rename the copies. (So that both a ``python.exe`` and ``python##.exe`` exist in the same folder.)
+   ![](2017-01-16 20_15-000036.png) 
+   
+   **After**:
+   
+   ![](images/2017-01-16 20_15-000037.png)
+   
+   Repeat this for all of the other versions of WinPython you have installed. For the main version of Python, copy and paste the executables and rename the copies. (So that both a ``python.exe`` and ``python#.#.exe`` exist in the same folder.)
    
    At the end you should end up with a folder structure that looks like this:
       
-   ![](images/2017-01-14 22_28-000028.png)
+   ![](images/2017-01-16 21_30-000038.png)
 
 
 ## ``tox``
 
-Minimal version of 
+Minimal version of ``tox.ini``.
 
     # content of: tox.ini , put in same dir as setup.py
     [tox]
-    envlist = python27,python34,python35,python36
+    envlist = py27,py34,py35,py36
     [testenv]
     deps=pytest
     commands=py.test
-	
-	
 
 ## Execution
 
