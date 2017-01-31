@@ -1,6 +1,6 @@
 # WinPython & Tox
 
-These instructions will show you how to use [``tox``](https://tox.readthedocs.io/en/latest/) on Windows to test against multiple v. Set up correctly you will be able to test against Python versions 2.7, 3.4, 3.5 & 3.6 on Windows.
+These instructions will show you how to use [``tox``](https://tox.readthedocs.io/en/latest/) on Windows to test against multiple versions of Python. Set up correctly you will be able to test against Python versions 2.7, 3.4, 3.5 & 3.6 on Windows.
 
 ## Setup
 
@@ -8,9 +8,9 @@ These instructions will show you how to use [``tox``](https://tox.readthedocs.io
 
 ### WinPython.
 
-While I personally prefer to develop on *NIX systems, in my corporate engineering day job Windows was a necessity. Most of the Python I wrote was targeting use on Windows 7 and 10.
+While I personally prefer to develop on \*NIX systems, in my corporate engineering day job Windows was a necessity. Most of the Python I wrote was targeting use on Windows 7 and 10.
 
-There are multiple ways to [install multiple versions of Python](how to install multiple versions of python on windows) on Windows. I've tested them prefer to use [WinPython](https://winpython.github.io/).
+There are multiple ways to [install multiple versions of Python](http://lmgtfy.com/?q=how+to+install+multiple+versions+of+python+on+windows) on Windows. I've tested some of them and prefer to use [WinPython](https://winpython.github.io/).
 
 - No admin privledges required. In a corporate environment with locked down permissions this makes deployment and upgrading much easier.
 - It's Portable. You can move the install folders around without breaking the individual Python 'installs'.
@@ -21,7 +21,7 @@ For these instructions I will use Zero versions because they are small in size a
 
 The latest WinPython releases can be found on their releases page:
 
-https://github.com/winpython/winpython/releases/
+**https://github.com/winpython/winpython/releases/**
 
 1. Download the versions of Python you wish to test against. Most Windows 7 machines will be 64-bit. ([Here is how to check if you are unsure](https://support.microsoft.com/en-us/help/15056/windows-7-32-64-bit-faq))
 
